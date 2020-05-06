@@ -1,0 +1,15 @@
+.contenedor {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.lista-equipos {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-jugadores {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+}

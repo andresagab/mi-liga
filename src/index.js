@@ -1,11 +1,27 @@
 import React from "react";
 import {render} from "react-dom";
 import {unregister} from "./serviceWorker";
-import HolaMundo from "./components/HolaMundo/HolaMundo";
 
+//Components
+import Header from "./components/Common/Header/Header";
+import Router from "./Router";
 
+//Styles
 import "./index.css";
 
-render(<HolaMundo name="Andres" edad="21" tipo="note"/>, document.querySelector('#root'));
+const Root = () => {
+
+    return (
+        <div>
+            <Header/>
+            <div className="contenedor">
+                <Router/>
+            </div>
+        </div>
+    );
+
+}
+
+render(<Root/>, document.querySelector('#root'));
 
 unregister();
