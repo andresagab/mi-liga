@@ -1,8 +1,11 @@
 import React from "react";
+import {Link} from "react-router-dom";
+
+//Material
+import Button from "material-ui/Button";
 
 //Styles
-// import "./Liga.css";
-import "./../../index.css";
+import "./Liga.css";
 
 //Components
 import Equipo from "../Common/Equipo/Equipo";
@@ -27,6 +30,7 @@ class Liga extends React.Component{
                     <Equipo nombre="Piratas" logo={LogoPiratas}/>
                     <Equipo nombre="Tiburones" logo={LogoTiburones}/>
                 </div>
+                <Button variant="raised" component={Link} to="/calendario/Felinos" color="secondary">Ir al calendario</Button>
                 <div className="lista-jugadores">
                     <Jugador nombre="Sergio" foto={FotoSergio}/>
                     <Jugador nombre="Manuel" foto={FotoManuel}/>

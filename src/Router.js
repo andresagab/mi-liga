@@ -3,15 +3,18 @@ import {BrowserRouter, Route, Switch} from "react-router-dom"
 
 import Liga from "./components/Liga/Liga";
 import Calendario from "./components/Calendario/Calendario";
+import NotFound from "./components/Common/NotFound/NotFound";
 
 const Router = () => {
 
     return (
         <BrowserRouter>
             <Switch>
-                <Route exact path="/" component={Liga} />
-                <Route path="/liga" component={Liga} />
-                <Route path="/calendario" component={Calendario} />
+                <Route exact path="/" component={Liga}/>
+                <Route path="/liga" component={Liga}/>
+                <Route path="/calendario/:equipo" component={Calendario}/>
+                <Route path="/calendarios" component={Calendario}/>
+                <Route component={NotFound}/>
             </Switch>
         </BrowserRouter>
     );

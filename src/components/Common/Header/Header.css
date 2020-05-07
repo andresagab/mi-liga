@@ -19,3 +19,8 @@ button {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+a {
+    text-decoration: none;
+    color: #fff;
+}

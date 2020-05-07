@@ -6,6 +6,7 @@ import Toolbar from "material-ui/Toolbar";
 import Button from "material-ui/Button";
 import Typography from "material-ui/Typography";
 
+//Style
 import "./Header.css";
 
 class Header extends React.Component {
@@ -19,8 +20,12 @@ class Header extends React.Component {
                             <div className="logo"></div>
                             <Typography variant="title" color="inherit" className="flex">
                             </Typography>
-                            <Button color="inherit">Equipos</Button>
-                            <Button color="inherit">Calendarios</Button>
+                            <Button color="inherit">
+                                <a href="/liga">Equipos</a>
+                            </Button>
+                            <Button color="inherit">
+                                <a href="/calendarios">Calendario</a>
+                            </Button>
                         </Toolbar>
                     </AppBar>
                 </div>
