@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/mi-liga/static/css/main.b26ed110.chunk.css",
+    "main.js": "/mi-liga/static/js/main.edc11955.chunk.js",
+    "main.js.map": "/mi-liga/static/js/main.edc11955.chunk.js.map",
+    "runtime-main.js": "/mi-liga/static/js/runtime-main.9cf45413.js",
+    "runtime-main.js.map": "/mi-liga/static/js/runtime-main.9cf45413.js.map",
+    "static/js/2.333c2eed.chunk.js": "/mi-liga/static/js/2.333c2eed.chunk.js",
+    "static/js/2.333c2eed.chunk.js.map": "/mi-liga/static/js/2.333c2eed.chunk.js.map",
+    "index.html": "/mi-liga/index.html",
+    "precache-manifest.c2566b430c4a5aa5be75bf3acec4f1d2.js": "/mi-liga/precache-manifest.c2566b430c4a5aa5be75bf3acec4f1d2.js",
+    "service-worker.js": "/mi-liga/service-worker.js",
+    "static/css/main.b26ed110.chunk.css.map": "/mi-liga/static/css/main.b26ed110.chunk.css.map",
+    "static/js/2.333c2eed.chunk.js.LICENSE.txt": "/mi-liga/static/js/2.333c2eed.chunk.js.LICENSE.txt",
+    "static/media/ernesto.png": "/mi-liga/static/media/ernesto.6b577104.png",
+    "static/media/felinos.png": "/mi-liga/static/media/felinos.ec070ff5.png",
+    "static/media/hugo.png": "/mi-liga/static/media/hugo.4fe9d274.png",
+    "static/media/jose.png": "/mi-liga/static/media/jose.b4a99d01.png",
+    "static/media/juan.png": "/mi-liga/static/media/juan.cc9e20dc.png",
+    "static/media/luis.png": "/mi-liga/static/media/luis.76017885.png",
+    "static/media/manuel.png": "/mi-liga/static/media/manuel.567afa70.png",
+    "static/media/mi-liga-2.png": "/mi-liga/static/media/mi-liga-2.db573ac5.png",
+    "static/media/mi-liga.png": "/mi-liga/static/media/mi-liga.939507d8.png",
+    "static/media/paco.png": "/mi-liga/static/media/paco.392f84eb.png",
+    "static/media/piratas.png": "/mi-liga/static/media/piratas.e7b4175e.png",
+    "static/media/sergio.png": "/mi-liga/static/media/sergio.eb85c8dc.png",
+    "static/media/tiburones.png": "/mi-liga/static/media/tiburones.9752a813.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cf45413.js",
+    "static/js/2.333c2eed.chunk.js",
+    "static/css/main.b26ed110.chunk.css",
+    "static/js/main.edc11955.chunk.js"
+  ]
+}
